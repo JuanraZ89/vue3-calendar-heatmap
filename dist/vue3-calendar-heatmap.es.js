@@ -360,7 +360,7 @@ function $e(e, t, a, s, h, o) {
           transform: e.getWeekPosition(v)
         }, [
           (i(!0), u(m, null, w(E, (I, U) => (i(), u(m, { key: U }, [
-            !e.showFutureDays && I.date < e.now ? (i(), u("rect", {
+            e.showFutureDays || I.date < e.now ? (i(), u("rect", {
               key: 0,
               class: "vch__day__square",
               rx: e.round,
