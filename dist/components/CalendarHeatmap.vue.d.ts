@@ -1,6 +1,10 @@
-import { PropType } from 'vue';
+import { PropType } from "vue";
 import { Locale, Month, TooltipFormatter, Value } from '../components/Heatmap';
 declare const _sfc_main: import("vue").DefineComponent<{
+    showFutureDays: {
+        type: BooleanConstructor;
+        default: boolean;
+    };
     endDate: {
         required: true;
     };
@@ -408,6 +412,10 @@ declare const _sfc_main: import("vue").DefineComponent<{
     };
     initTippyLazy: (e: MouseEvent) => void;
 }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, "dayClick"[], "dayClick", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+    showFutureDays: {
+        type: BooleanConstructor;
+        default: boolean;
+    };
     endDate: {
         required: true;
     };
@@ -451,6 +459,7 @@ declare const _sfc_main: import("vue").DefineComponent<{
 }>> & {
     onDayClick?: ((...args: any[]) => any) | undefined;
 }, {
+    showFutureDays: boolean;
     tooltip: boolean;
     tooltipUnit: string;
     vertical: boolean;
