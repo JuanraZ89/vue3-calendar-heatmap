@@ -1,5 +1,5 @@
 {
-  "name": "vue3-calendar-heatmap",
+  "name": "juanraz89-vue3-calendar-heatmap",
   "version": "3.0.0",
   "description": "A lightweight calendar heatmap Vue 3 component built on SVG, inspired by julienr114's vue-calendar-heatmap ans github's contribution calendar graph",
   "keywords": [
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/razorness/vue3-calendar-heatmap.git"
+    "url": "https://github.com/JuanraZ89/vue3-calendar-heatmap.git"
   },
   "sideEffects": false,
   "scripts": {
